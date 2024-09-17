@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Home.css';
 
-function Home() {
+function Cadastro() {
   const [role, setRole] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
 
@@ -36,7 +36,7 @@ function Home() {
   };
 
   return (
-    <div className="Home">
+    <div className="Cadastro">
       <div className="form-container">
         <h2>Cadastro</h2>
 
@@ -84,5 +84,4 @@ function Home() {
   );
 }
 
-export default Home;
-
+export default Cadastro;
